@@ -10,7 +10,7 @@ key words:
 
 import java.util.Scanner;
 import java.util.Random;
-class outOfRangeException extends Exception{
+class outOfRangeException extends Exception{    //defining a user defined exception
   public String msg;
   public outOfRangeException(String s){
     this.msg=s;
@@ -57,7 +57,7 @@ key words:
 -finally
 
 import random
-class myexception(Exception):
+class myexception(Exception):   #defining a user defined exception
   def __init__(self,n,msg):
     self.msg=msg
     #print(n,'not in specified range')
