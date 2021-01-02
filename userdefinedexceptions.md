@@ -1,13 +1,13 @@
-user defined exceptions
+<h1>user defined exceptions</h1>
 
-java:
-key words:
+<h2>java:</h2>
+<i><b>key words:
 -try
 -catch
 -throw
 -throws
 -finally
-
+</b></i>
 import java.util.Scanner;
 import java.util.Random;
 class outOfRangeException extends Exception{    //defining a user defined exception
@@ -48,14 +48,14 @@ public class Main {
       }
 }
 
-equivalent code in python:
-key words:
+<h2>equivalent code in python:</h2>
+<i><b>key words:
 -try
 -except
 -else
 -raise
 -finally
-
+</b></i>
 import random
 class myexception(Exception):   #defining a user defined exception
   def __init__(self,n,msg):
