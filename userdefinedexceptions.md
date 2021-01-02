@@ -8,7 +8,7 @@
 -throws
 -finally
 </b></i>
-<code>import java.util.Scanner;
+<pre>import java.util.Scanner;
 import java.util.Random;
 class outOfRangeException extends Exception{    //defining a user defined exception
   public String msg;
@@ -46,7 +46,7 @@ public class Main {
       System.out.println("thank you");
     }
       }
-  }</code>
+  }</pre>
 
 <h2>equivalent code in python:</h2>
 <i><b>key words:
