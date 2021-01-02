@@ -8,7 +8,7 @@
 -throws
 -finally
 </b></i>
-<div>import java.util.Scanner;
+<p>import java.util.Scanner;
 import java.util.Random;
 class outOfRangeException extends Exception{    //defining a user defined exception
   public String msg;
@@ -46,7 +46,7 @@ public class Main {
       System.out.println("thank you");
     }
       }
-  }</div>
+  }</p>
 
 <h2>equivalent code in python:</h2>
 <i><b>key words:
@@ -56,7 +56,7 @@ public class Main {
 -raise
 -finally
 </b></i>
-<div>import random
+<p>import random
 class myexception(Exception):   #defining a user defined exception
   def __init__(self,n,msg):
     self.msg=msg
@@ -79,4 +79,4 @@ else:
     print('wrong guess')
 finally:
   print('hidden number is',i,'\nthank you...')
-                      </div>
+                      </p>
