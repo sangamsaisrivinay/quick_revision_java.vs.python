@@ -1,0 +1,7 @@
+creating packages in python
+step1:
+every package must contain a __init__.py file
+step2:
+now create yor module files with .py extensions
+step2:
+create the functions in those modules
